@@ -1,4 +1,4 @@
-# MANUAL TESTING    
+# MANUAL TESTING: ADDING ACCOUNT  
 
 
 ## Test Case ID: TC001
@@ -20,7 +20,7 @@
 1. Navigate to the "Accounts" section and select "Asset accounts".
 2. When the "Accounts" page opens, click the "Create an asset account" button.
 3. In the "Name" field, enter "Main Account".
-4. In the For "Currency" field, choose EUR from the dropdown.
+4. In the "Currency" field, choose EUR from the dropdown.
 5. In the "Opening balance" field, enter "1000".
 6. Set the "Opening Date" to today's date.
 7. From the "Account role", select "Default asset account".
@@ -42,6 +42,12 @@
 
 **Test Date**: 22.02.2024
 
+**Environment**:
+
+Windows 11 Pro Version 22H2
+
+Google Chrome Browser Version 117.0.5938.149 (Official Version) (64-bit)
+
 
 ## Test Case ID: TC002
 ### Test Case Name: Create a second Asset Account with te same name
@@ -62,7 +68,7 @@
 1. Navigate to the "Accounts" section and select "Asset accounts".
 2. When the "Accounts" page opens, click the "Create an asset account" button.
 3. In the "Name" field, enter "Main Account".
-4. In the For "Currency" field, choose EUR from the dropdown.
+4. In the "Currency" field, choose EUR from the dropdown.
 5. In the "Opening balance" field, enter "5000".
 6. Set the "Opening Date" to today's date.
 7. From the "Account role", select "Default asset account".
@@ -81,6 +87,12 @@
 **Tester**: Ilona Zając
 
 **Test Date**: 04.03.2024
+
+**Environment**:
+
+Windows 11 Pro Version 22H2
+
+Google Chrome Browser Version 117.0.5938.149 (Official Version) (64-bit)
 
 
 ## Test Case ID: TC003
@@ -101,7 +113,7 @@
 1. Navigate to the "Accounts" section and select "Asset accounts".
 2. When the "Accounts" page opens, click the "Create an asset account" button.
 3. Do not fill in the mandatory "Name" field.
-4. In the For "Currency" field, choose EUR from the dropdown.
+4. In the "Currency" field, choose EUR from the dropdown.
 5. In the "Opening balance" field, enter "1000".
 6. Set the "Opening Date" to today's date.
 7. From the "Account role", select "Default asset account".
@@ -141,13 +153,12 @@
 1. Navigate to the "Accounts" section and select "Asset accounts".
 2. When the "Accounts" page opens, click the "Create an asset account" button.
 3. In the "Name" field, enter "Second Account".
-4. In the For "Currency" field, choose EUR from the dropdown.
+4. In the "Currency" field, choose EUR from the dropdown.
 5. In the "Opening balance" field, enter "-500".
 6. Set the "Opening Date" to today's date.
 7. From the "Account role", select "Default asset account".
 8. Click the "Store new asset account" button to create the account.
 9. A success notification appears stating: "Success! New account "Second Account" stored!".
-
 
 **Expected Result**:
 - A notification of successful account creation will be displayed.
@@ -162,6 +173,12 @@
 **Tester**: Ilona Zając
 
 **Test Date**: 22.02.2024
+
+**Environment**:
+
+Windows 11 Pro Version 22H2
+
+Google Chrome Browser Version 117.0.5938.149 (Official Version) (64-bit)
 
 ## Test Case ID: TC005
 ### Test Case Name: Create an asset account by entering letters in the "Opening Balance" field.
@@ -181,7 +198,7 @@
 1. Navigate to the "Accounts" section and select "Asset accounts".
 2. When the "Accounts" page opens, click the "Create an asset account" button.
 3. In the "Name" field, enter "Spare Account".
-4. In the For "Currency" field, choose EUR from the dropdown.
+4. In the "Currency" field, choose EUR from the dropdown.
 5. In the "Opening balance" field, enter "Abcde".
 
 **Expected Result**:
@@ -197,6 +214,12 @@
 **Tester**: Ilona Zając
 
 **Test Date**: 04.03.2024
+
+**Environment**:
+
+Windows 11 Pro Version 22H2
+
+Google Chrome Browser Version 117.0.5938.149 (Official Version) (64-bit)
 
 
 ## Test Case ID: TC006
@@ -218,7 +241,7 @@
 1. Navigate to the "Accounts" section and select "Asset accounts".
 2. When the "Accounts" page opens, click the "Create an asset account" button.
 3. In the "Name" field, enter "My Account".
-4. In the For "Currency" field, choose EUR from the dropdown.
+4. In the "Currency" field, choose EUR from the dropdown.
 5. In the "Opening balance" field, enter "1000".
 6. In the "Opening balance date" field, enter "04.03.20244"
 7. From the "Account role", select "Default asset account".
@@ -237,6 +260,12 @@
 **Tester**: Ilona Zając
 
 **Test Date**: 04.03.2024
+
+**Environment**:
+
+Windows 11 Pro Version 22H2
+
+Google Chrome Browser Version 117.0.5938.149 (Official Version) (64-bit)
 
 ## Test Case ID: TC007
 ### Test Case Name: Create an asset account by entering an incorrect date format in the "Opening Balance Date" field.
@@ -257,7 +286,7 @@
 1. Navigate to the "Accounts" section and select "Asset accounts".
 2. When the "Accounts" page opens, click the "Create an asset account" button.
 3. In the "Name" field, enter "Spare Account".
-4. In the For "Currency" field, choose EUR from the dropdown.
+4. In the "Currency" field, choose EUR from the dropdown.
 5. In the "Opening balance" field, enter "7000".
 6. In the "Opening balance date" field, enter "44.03.2024"
 7. From the "Account role", select "Default asset account".
@@ -277,6 +306,12 @@
 **Tester**: Ilona Zając
 
 **Test Date**: 04.03.2024
+
+**Environment**:
+
+Windows 11 Pro Version 22H2
+
+Google Chrome Browser Version 117.0.5938.149 (Official Version) (64-bit)
 
 
 ## Test Case ID: TC008
@@ -310,6 +345,12 @@
 **Tester**: Ilona Zając
 
 **Test Date**: 22.02.2024
+
+**Environment**:
+
+Windows 11 Pro Version 22H2
+
+Google Chrome Browser Version 117.0.5938.149 (Official Version) (64-bit)
 
 ## Test Case ID: TC009
 ### Test Case Name: Create an Expense Account with the same name as the existing asset account 
@@ -345,7 +386,11 @@
 
 **Test Date**: 04.03.2024
 
+**Environment**:
 
+Windows 11 Pro Version 22H2
+
+Google Chrome Browser Version 117.0.5938.149 (Official Version) (64-bit)
 
 ## Test Case ID: TC010
 ### Test Case Name: Create an Expense Account with invalid IBAN
@@ -382,4 +427,8 @@
 
 **Test Date**: 22.02.2024
 
+**Environment**:
 
+Windows 11 Pro Version 22H2
+
+Google Chrome Browser Version 117.0.5938.149 (Official Version) (64-bit)
